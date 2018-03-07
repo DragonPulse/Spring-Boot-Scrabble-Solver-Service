@@ -1,0 +1,22 @@
+Requirements:
+  Requires Maven 3 or newer and Java JDK 8 or newer.
+
+To build:
+  mvn clean package
+
+To run tests and coverage report:
+  mvn clean verify
+
+To Run Tests and get SOnar Report:
+    mvn clean verify sonar:sonar
+
+
+
+
+
+
+To Execute the Applicaiton:
+java -jar scrabble-solver-service-0.0.1-SNAPSHOT.jar
+
+URL for App:
+Swagger :: http://localhost:8080/swagger-ui.html#/

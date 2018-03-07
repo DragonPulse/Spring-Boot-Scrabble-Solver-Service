@@ -1,0 +1,45 @@
+SYSTEM_NAME:libtool-2.4.2 satyanav$ ab -n 100 http://localhost:8080/words/hat
+This is ApacheBench, Version 2.3 <$Revision: 1757674 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient).....done
+
+
+Server Software:
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /words/hat
+Document Length:        31 bytes
+
+Concurrency Level:      1
+Time taken for tests:   0.183 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      18600 bytes
+HTML transferred:       3100 bytes
+Requests per second:    545.31 [#/sec] (mean)
+Time per request:       1.834 [ms] (mean)
+Time per request:       1.834 [ms] (mean, across all concurrent requests)
+Transfer rate:          99.05 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       0
+Processing:     1    2   0.8      2       7
+Waiting:        1    2   0.7      1       6
+Total:          1    2   0.8      2       8
+WARNING: The median and mean for the waiting time are not within a normal deviation
+        These results are probably not that reliable.
+
+Percentage of the requests served within a certain time (ms)
+  50%      2
+  66%      2
+  75%      2
+  80%      2
+  90%      2
+  95%      3
+  98%      4
+  99%      8
+ 100%      8 (longest request)
